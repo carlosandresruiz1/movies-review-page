@@ -110,7 +110,7 @@ function show(movies) {
             movies.slice(i, i + 3).forEach(movies => {
              const movieCard = `   
              <div class="card">
-             <img src="${movies.poster}" class="card-img-top" alt="...">
+             <img src="${movies.poster}" class="card-img-top movie" alt="...">
              <div class="card-body">
                <h5 class="card-title">${movies.title}</h5>
                <p class="card-text">Año: ${movies.releaseDate}.</p>
