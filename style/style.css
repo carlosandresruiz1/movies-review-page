@@ -1,0 +1,12 @@
+:root{
+    --color-sec-back-retro: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(56%, #18191a), color-stop(85%, #157be6), color-stop(100%, #ffffff));
+    --color-primary-retro: linear-gradient(#01050A,#000b38,#01050A);
+}
+.front-image{
+    width: 100%;
+    height: 100%;
+    
+}
+.front-div{
+    height: 20vh;
+}
