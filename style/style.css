@@ -33,15 +33,30 @@ img.movie:hover{
 .carousel-bottom{
     width: 50px;
     height: 50px;
-    top: 50%;
     bottom: auto;
-    transform: translateY(-50%);
+    background-color: var(--color-primary-retro);
+    
   }
   
-  .carousel-control-prev {
+  .carousel-control-left {
     left: -50px; /* adjust as needed */
+
   }
   
-  .carousel-control-next {
+.carousel-control-right {
     right: -50px; /* adjust as needed */
-  }
+    bottom: 0;
+}
+.carousel-bottoms{
+    align-items: center;
+}
+.more-style{
+    background: none;
+    background-color: rgba(87, 29, 4, 0.658);
+}
+.information-bottom{
+    background: linear-gradient(90deg, rgba(87, 29, 4, 0.658) 0%, rgba(87, 29, 4, 0.658) 50%, rgba(87, 29, 4, 0.658) 100%);
+}
+.card{
+    background-color: rgba(218, 73, 12, 0.226);
+}
