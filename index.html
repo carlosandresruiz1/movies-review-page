@@ -17,14 +17,22 @@
         </div>
       </nav>
       <div class="front-div">
-        <img src="./style/Img/movie theater.jpg" class="front-image alt="...">
-      </div>
-      <div class="container-fluid p-3">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbar">
-        </form>
+        <div class="container-fluid p-1">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbar">
+          </form>
+          <div class="carousel-bottoms">
+            <button class="carousel-bottom carousel-control-left" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            </button>
+            <button class="carousel-bottom carousel-control-right" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
       </div>
         <div id="carouselExample" class="carousel slide p-3">
+          
           <div class="carousel-inner" id="movie_list">
             <div class="carousel-item active ">
               <div class="card-group">
@@ -61,13 +69,6 @@
               <img src="..." class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </button>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="./script/jscript.js"></script>        

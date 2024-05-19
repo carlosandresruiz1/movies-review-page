@@ -109,14 +109,14 @@ function show(movies) {
             slide += `<div class="card-group">`
             movies.slice(i, i + 3).forEach(movies => {
              const movieCard = `   
-             <div class="card">
-             <img src="${movies.poster}" class="card-img-top" alt="...">
-             <div class="card-body">
+             <div class="card more-style">
+             <img src="${movies.poster}" class="card-img-top movie" alt="...">
+             <div class="card-body more-style">
                <h5 class="card-title">${movies.title}</h5>
                <p class="card-text">Año: ${movies.releaseDate}.</p>
                <p class="card-text">Actores: ${movies.actors}</p>
                <span class="badge text-bg-warning">${movies.rating}</span>
-               <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${movies.id}" aria-expanded="false" aria-controls="collapseExample">
+               <button class="btn information-bottom btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${movies.id}" aria-expanded="false" aria-controls="collapseExample">
                 Información
                 </button>
                 </p>
